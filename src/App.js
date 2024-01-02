@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./Home";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
         color: "white", // テキストの色を白に設定
       }}
     >
-      <h1>ラーメン店ファストパス</h1>
+      <p>ラーメン店</p>
+      <p>ファストパス</p>
+
       <Home />
+      <Sidebar />
     </div>
   );
 }
