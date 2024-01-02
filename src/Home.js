@@ -45,15 +45,6 @@ function SignOutButton() {
   );
 }
 
-// function UserInfo() {
-//   return (
-//     <div className="userInfo">
-//       <img src={auth.currentUser.photoURL} alt="" />
-//       <p>{auth.currentUser.displayName}</p>
-//     </div>
-//   );
-// }
-
 function UserInfo() {
   const user = auth.currentUser;
 

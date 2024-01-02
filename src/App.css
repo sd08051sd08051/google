@@ -19,14 +19,83 @@ img {
 }
 
 button {
-  margin-top: 14px;
-  padding: 7px 40px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 1px 5px 10px #626262;
-  cursor: pointer;
-  background-color: #cf9b48;
-  color: white;
-  font-weight: 800;
-  font-size: 1.2rem;
+  padding: 0.5em;
+  display: block;
+  color: #898989 !important;
+  background: #ca2828;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3%;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none !important;
+  border: solid;
+  border-color: #898989;
+  border-width: 0.5px;
+}
+button {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  margin: -3px 24px 0 0;
+  background: url("https://developers.google.com/identity/images/g-logo.png?hl=ja")
+    no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+button:hover {
+  background: #ffffff;
+}
+button {
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 0.5em 0.6em;
+    font-size: 40px;
+    display: inline-block;
+  }
+  .button {
+    margin: -3px 24px 0 0;
+  }
+}
+
+button {
+  padding: 0.5em;
+  display: block;
+  color: #898989 !important;
+  background: #ca2828; /* ボタンの背景色を指定 */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3%;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none !important;
+  border: solid;
+  border-color: #898989;
+  border-width: 0.5px;
+}
+
+/* ボタンに透明度を指定（1が完全不透明、0が完全透明） */
+button {
+  opacity: 1;
+}
+
+/* 背景画像関連のスタイル（不要であれば削除してください） */
+button {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+  margin: -3px 24px 0 0;
+  background: url("https://developers.google.com/identity/images/g-logo.png?hl=ja")
+    no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+button:hover {
+  background: #ffffff; /* ホバー時の背景色を指定（必要であれば） */
 }
