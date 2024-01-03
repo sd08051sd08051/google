@@ -18,9 +18,7 @@ function App() {
         color: "white", // テキストの色を白に設定
       }}
     >
-      <p>ラーメン店</p>
-      <p>ファストパス</p>
-
+      <h1>ラーメン店FastPass</h1>
       <Home />
       <Sidebar />
     </div>
