@@ -20,7 +20,7 @@ function App() {
     >
       <h1>ラーメン店FastPass</h1>
       <Home />
-      <Sidebar />
+      {/* <Sidebar /> */}
     </div>
   );
 }
