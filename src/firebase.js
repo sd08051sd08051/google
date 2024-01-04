@@ -3,13 +3,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore/lite";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAuEXp2DjXNGuz9FDUoyaOz8eKW5SgUwtU",
-  authDomain: "login-fa283.firebaseapp.com",
-  projectId: "login-fa283",
-  storageBucket: "login-fa283.appspot.com",
-  messagingSenderId: "496608187867",
-  appId: "1:496608187867:web:4fd23e6659a818da4603fe",
-  measurementId: "G-1NNKZTDKE5",
+  apiKey: "",
+  authDomain: "login-.firebaseapp.com",
+  projectId: "login-",
+  storageBucket: "login-.appspot.com",
+  messagingSenderId: "",
+  appId: "1::web:",
+  measurementId: "G-",
 };
 
 const app = initializeApp(firebaseConfig);
